@@ -1,9 +1,0 @@
-name: Movie_Review
-account: orikronfeld
-server: shinyapps.io
-appId: 135516
-bundleId: 604554
-url: https://orikronfeld.shinyapps.io/Movie_Review/
-when: 1478185411.01939
-asMultiple: FALSE
-asStatic: FALSE
