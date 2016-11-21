@@ -1,6 +1,5 @@
 #Initializaiotn ####
 rm(list=ls()) # clear workspace
-mainDir <- "/Celebros/"
 setwd(mainDir)
 set.seed(1)
 options(java.parameters = "-Xmx8000m")
