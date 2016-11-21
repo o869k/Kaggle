@@ -1,6 +1,5 @@
 #Initialization
 {
-      setwd("C:/Users/OriK/Documents/Kaggle/digits")
       rm(list=ls()) # clear workspace
       library(fpp); library(ggplot2)
       library(caret); library(kernlab)
