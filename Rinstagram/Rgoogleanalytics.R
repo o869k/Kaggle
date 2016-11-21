@@ -11,12 +11,8 @@ library(RGoogleAnalytics)
 # Authorize the Google Analytics account
 # This need not be executed in every session once the token object is created 
 # and saved
-client.id <- "480736127814-37415mojr9c0l8a7g4jpq5dpnmbugv59.apps.googleusercontent.com"
-client.secret <- "68IM39xrXnbh4xtjDD9whsJE"
-token <- Auth(client.id,client.secret)
 
 # Save the token object for future sessions
-save(token,file="./token_file")
 
 query.list <- Init(start.date = "2014-08-01",
                    end.date = "2014-09-01",
