@@ -3,7 +3,6 @@
   sessionInfo() #system performance
   gc() #clear unsued memory
   rm(list=ls()) # clear workspace
-  mainDir <- "C:/Users/OriK/Documents/Kaggle/Liberty"
   setwd(mainDir)
   Sys.setlocale("LC_TIME", "English")
   set.seed(1234) #setting seed for comparison
