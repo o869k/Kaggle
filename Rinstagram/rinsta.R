@@ -22,12 +22,9 @@ library(tm)
 library(devtools)
 
 #Instagram stuff to be ready only after approval ####
-my_oauth <- instaOAuth("6d06cb7c49ce4392a76df67b7eb253fc","2d760e9ed609435f8a990c9c29f8734a",scope = "basic")
 save(my_oauth, file="my_oauth")
 
 ## Searching and downloading 100 public media that mention #obama
-orikro <- searchInstagram( tag="orikro", token=my_oauth, n=100, folder="orikro")
-orikro <- getUserMedia( username="orikro", token=my_oauth )
 comments <- getComments(orikro$id[1], token=my_oauth )
 mccain <- getFollowers( username="orikro", token=my_oauth )
 likes <- getLikes(orikro$id[1], token=my_oauth)
