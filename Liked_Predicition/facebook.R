@@ -8,7 +8,6 @@ set.seed(1234) #setting seed for comparison
 library(Rfacebook)
 library(devtools)
 
-fb_oauth <- fbOAuth("1508118382834465", "c4ae80cae52b588f22a06536f1cb273c", extended_permissions = T)
 save(fb_oauth, file="fb_oauth")
 load("fb_oauth")
 me <- getUsers("me", token=fb_oauth)
