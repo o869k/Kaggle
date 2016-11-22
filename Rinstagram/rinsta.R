@@ -75,9 +75,6 @@ tuser$profileImageUrl
 tuserdf <- tuser@toDataFrame(tuser)
 
 #Cloud Deep Learning with clarifai #####
-secret_id(c("fVSoqOnDFI5EyHTdRgKZWy1ZODN8BSDntSHVcnrx","x6tnvw60fGFVo1iwA1tud0DLrQvlCqWz0G7Arl6I"))
-get_token() #get the token
-get_info() #Get information about your application:
 
 #Get Tags from local or url
 res <- tag_image_urls("http://www.clarifai.com/img/metro-north.jpg",meta = F,simplify = F)
