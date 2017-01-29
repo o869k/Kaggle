@@ -1,0 +1,8 @@
+http://r.789695.n4.nabble.com/R-CMD-BATCH-Unicode-td4670311.html
+http://www.statmethods.net/interface/batch.html
+http://withr.me/configure-character-encoding-for-r-under-linux-and-windows/
+http://superuser.com/questions/69091/batch-change-encoding-ascii-files-from-utf-8-to-iso-8859-1
+http://people.fas.harvard.edu/~izahn/posts/reading-data-with-non-native-encoding-in-r/
+https://www.r-bloggers.com/r-and-foreign-characters/
+https://cran.r-project.org/doc/manuals/R-intro.pdf
+https://support.rstudio.com/hc/en-us/articles/200532197-Character-Encoding
